@@ -65,7 +65,8 @@ main p:first-child {
     display: inline;
     padding: 10px;
     margin: 30px auto;
-    height: 120px;
+    gap: 10px;
+    height: fit-content;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -123,4 +124,11 @@ footer {
 p span {
     color: var(--main-color);
     font-weight: 600;
+}
+@media (max-width: 468px ) {
+    #tasbeeh {
+        justify-content: center;
+        padding: 50px;
+    }
+    
 }
